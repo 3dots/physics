@@ -33,12 +33,12 @@ $|\cdot|_{\Bbb X}: \Bbb x \rightarrow \sqrt{ (\Bbb x, \Bbb x) } =
 |\Bbb x|_{\Bbb X}$
 $\mathrm{domain}\big(|\cdot|_{\Bbb X}\big) \subseteq 
 \Bbb X \cup \{\delta\Bbb X\}$
-$\mathrm{range}\big(|\cdot|_{\Bbb X}\big) \subseteq 
-\Bbb M_{\Bbb X},\; \Bbb X \cup \{\delta\Bbb X\} \subseteq \Bbb M_{\Bbb X}$
+$\{ |x|: x \in \Bbb X \cup \{\delta\Bbb X\} \} \subseteq 
+\mathrm{range}\big(|\cdot|_{\Bbb X}\big)$
 
 $\text{If } \Bbb a \in \Bbb A \cup \{\delta \Bbb A\} \text{ then either}$
 $\Bbb a = \delta \Bbb A \text{ or } K_\Bbb A(\Bbb a) \in \mathrm N^+$
-$\sqrt{\Bbb a} \in \Bbb X \cup \{\delta\Bbb X\} \text{ iff }$
+$\sqrt{\Bbb a} \in \{ |x|: x \in \Bbb X \cup \{\delta\Bbb X\} \} \text{ iff }$
 $\sqrt{\Bbb a} = \delta{\Bbb X} \text{ or } 
 K_\Bbb X(\sqrt{\Bbb a}) \in \mathrm N^+$
 
