@@ -1,15 +1,19 @@
+## Math basics for Physical quantities
 
+Using [MathJax](https://www.mathjax.org/) that [math stackoverflow](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) uses.
 
+___
 Observable $\Bbb x \in \Bbb X = 
 \{ x \in \Bbb C : K_\Bbb X(x) = k \in \Bbb N^+ \}$
 $x_k := K_\Bbb X^{-1}(k)$
 
 $\Bbb x, \Bbb y \in \Bbb X$
 $ \Bbb x = \Bbb y \text{ iff } K_\Bbb X(\Bbb x) = K_\Bbb X(\Bbb y)$
-$\Bbb x \pm \Bbb y \in \Bbb X \text{ iff  } \exists K_\Bbb X(\Bbb x \pm \Bbb y)$
+$\Bbb x \pm \Bbb y \in \Bbb X \text{ iff  } \exists K_\Bbb X(\Bbb x \pm \Bbb y) \in \Bbb N^+$
 
 $a \in \Bbb R$
-$a\Bbb x \in \Bbb X \text{ iff  } \exists K_\Bbb X(a\Bbb x)$
+$a\Bbb x \in \Bbb X \text{ iff  } \exists 
+K_\Bbb X(a\Bbb x) \in \Bbb N^+$
 
 $\Delta\Bbb x_k := \Bbb x_k - \Bbb x_{k-1}$
 $\delta\Bbb X := \inf(\{ \Delta\Bbb x_k \})$ need not belong to $\Bbb X$.
@@ -34,7 +38,7 @@ $|\cdot|_{\Bbb X}: \Bbb x \rightarrow \sqrt{ (\Bbb x, \Bbb x) } =
 $\mathrm{domain}\big(|\cdot|_{\Bbb X}\big) \subseteq 
 \Bbb X \cup \{\delta\Bbb X\}$
 $\{ |x|: x \in \Bbb X \cup \{\delta\Bbb X\} \} \subseteq 
-\mathrm{range}\big(|\cdot|_{\Bbb X}\big)$
+\mathrm{range}\big(|\cdot|_{\Bbb X}\big) \in \Bbb R$
 
 $\text{If } \Bbb a \in \Bbb A \cup \{\delta \Bbb A\} \text{ then either}$
 $\Bbb a = \delta \Bbb A \text{ or } K_\Bbb A(\Bbb a) \in \mathrm N^+$
