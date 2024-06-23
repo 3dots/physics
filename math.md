@@ -128,3 +128,20 @@ $ \delta\Bbb X_k := \inf(|\Bbb X_k|) \in \Bbb R $ need not belong to $ |\Bbb X_k
 
 $ \delta\Bbb X := \inf( \{ |\delta\Bbb X_k - \delta\Bbb X_{k-1}| \} )$ need not belong to $\Bbb X $.
 ___
+
+$ \Bbb c, \Bbb x \in \Bbb X \subseteq \Bbb C,\; \Bbb y \in \Bbb Y \subseteq \Bbb C $
+
+$ \lim_{\Bbb x \to \Bbb c}^{\Bbb X, \Bbb Y} \Bbb f_{\Bbb X}(\Bbb x) = \Bbb y \text{ iff } $
+$ \forall \varepsilon \gt \delta \Bbb Y\; \exists \delta \gt \delta \Bbb X \text{  s.t. }
+|\Bbb f(\Bbb x) - y|_{\Bbb Y} \lt \varepsilon\; \forall\; 0 \lt
+|\Bbb x - c|_{\Bbb X} \lt \delta $
+
+$ f'_{\Bbb X}(x) := \lim_{\Bbb h \to \delta \Bbb X}^{\Bbb X, \Bbb Y}
+\frac{f_{\Bbb X}(x + h) - f_{\Bbb X}(x)}{h} $
+
+$ \mathrm{range}\big( f'_{\Bbb X} ) = \{ z: z \in \Bbb Z \cup \{\delta\Bbb Z\} \} $
+
+$ \delta\Bbb Z = \frac{\delta\Bbb Y}{\delta\Bbb X} $ if $ \delta\Bbb X \neq 0 $
+
+___
+
