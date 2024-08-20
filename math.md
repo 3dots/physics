@@ -102,3 +102,16 @@ $\Delta\Bbb x_k := \Bbb x_k - \Bbb x_{k-1}$
 
 $\delta\Bbb X := \inf( \{ \Delta\Bbb x_k \} )$ need not belong to $\Bbb X$.
 ___
+
+# 8.19.2024
+
+Observable
+$ \Bbb x \in \Bbb X = \{ x \in \Bbb C : K_\Bbb X(x) = k \in \Bbb N_\Bbb X \}, \Bbb N_\Bbb X \subseteq \Bbb N^+ $
+
+$d\Bbb X $ := A differential measure of an observable. Could be an observable, but not necessarily.
+
+$\Delta\Bbb x_k := \Bbb x_k - \Bbb x_{k-1}$
+
+$\delta\Bbb X := \inf( \{ \Delta\Bbb x_k \} )$ need not belong to $\Bbb X$. = The absolute limit of resolution.
+
+$ \Bbb Position(\Bbb X) = (\Bbb X, d\Bbb X, \delta\Bbb X) $
